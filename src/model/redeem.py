@@ -146,6 +146,7 @@ class redeem(torch.nn.Module):
                 recon_loss_t = F.mse_loss(text_emb, padding_t, reduction='none')
                 recon_loss_t = recon_loss_t * mask
                 recon_loss_t = recon_loss_t.mean()
+                mask = (1-missing_mask).view(-1, 1, 1).expand(-1, self.max_image_len, self.hs)
                 recon_loss_i = F.mse_loss(image_emb, padding_i, reduction='none')
                 recon_loss_i = recon_loss_i * mask
                 recon_loss_i = recon_loss_i.mean()
