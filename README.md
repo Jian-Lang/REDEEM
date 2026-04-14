@@ -1,4 +1,9 @@
 # REDEEM: REtrieval-guiDEd conditional gEnerative fraMework
+
+> [!IMPORTANT]
+>
+> *We release the **first comprehensive collection of resources on modality-missing learning**: https://github.com/Jian-Lang/awesome-modality-missing-learning.*
+
 This repo is the official implementation of _REDEEMing Modality Information Loss: Retrieval-Guided Conditional Generation for Severely Modality Missing Learning_ accepted by KDD 2025. 
 
 This work, [REDEEM](https://jianlang.org/assets/papers/KDD-2025-REDEEM.pdf), is an extension of my previous work on [RAGPT](https://doi.org/10.1609/aaai.v39i17.33984), which is accepted by AAAI 2025. The main improvements lie in: 
