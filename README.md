@@ -1,4 +1,4 @@
-# REDEEM: REtrieval-guiDEd conditional gEnerative fraMework
+# REDEEM
 
 > [!IMPORTANT]
 >
